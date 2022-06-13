@@ -38,28 +38,35 @@ func FindVulnerabilitiesForPackage(provider vulnerability.Provider, d *linux.Rel
 	return matcher.FindMatches(provider, d, matchers, packages)
 }
 
-func LoadVulnerabilityDB(cfg db.Config, update bool) (vulnerability.Provider, vulnerability.MetadataProvider, *db.Status, error) {
+func LoadVulnerabilityDB(cfg db.Config, update bool) (*Store, error) {
 	dbCurator, err := db.NewCurator(cfg)
 	if err != nil {
-		return nil, nil, nil, err
+		return nil, err
 	}
 
 	if update {
 		log.Debug("looking for updates on vulnerability database")
 		_, err := dbCurator.Update()
 		if err != nil {
-			return nil, nil, nil, err
+			return nil, err
 		}
 	}
 
-	store, err := dbCurator.GetStore()
+	storeReader, err := dbCurator.GetStore()
 	if err != nil {
-		return nil, nil, nil, err
+		return nil, err
 	}
 
 	status := dbCurator.Status()
 
-	return db.NewVulnerabilityProvider(store), db.NewVulnerabilityMetadataProvider(store), &status, status.Err
+	store := &Store{
+		VulnerabilityProvider:         db.NewVulnerabilityProvider(storeReader),
+		VulnerabilityMetadataProvider: db.NewVulnerabilityMetadataProvider(storeReader),
+		MatchExclusionProvider:        db.NewMatchExclusionProvider(storeReader),
+		Status:                        &status,
+	}
+
+	return store, status.Err
 }
 
 func SetLogger(logger logger.Logger) {

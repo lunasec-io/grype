@@ -80,7 +80,7 @@ func Test_ApplyExplicitIgnoreRules(t *testing.T) {
 				})
 			}
 
-			filtered := ApplyExplicitIgnoreRules(matches)
+			filtered := ApplyExplicitIgnoreRules(nil, matches)
 
 			var found []string
 			for match := range filtered.Enumerate() {

@@ -7,10 +7,10 @@ import (
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/anchore/grype/grype/match"
-	"github.com/anchore/grype/grype/pkg"
-	"github.com/anchore/grype/grype/version"
-	"github.com/anchore/grype/grype/vulnerability"
+	"github.com/lunasec-io/grype/grype/match"
+	"github.com/lunasec-io/grype/grype/pkg"
+	"github.com/lunasec-io/grype/grype/version"
+	"github.com/lunasec-io/grype/grype/vulnerability"
 	syftPkg "github.com/anchore/syft/syft/pkg"
 )
 

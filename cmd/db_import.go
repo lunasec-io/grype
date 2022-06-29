@@ -5,8 +5,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/anchore/grype/grype/db"
-	"github.com/anchore/grype/internal"
+	"github.com/lunasec-io/grype/grype/db"
+	"github.com/lunasec-io/grype/internal"
 )
 
 var dbImportCmd = &cobra.Command{

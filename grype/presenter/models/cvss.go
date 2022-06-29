@@ -1,6 +1,6 @@
 package models
 
-import "github.com/anchore/grype/grype/vulnerability"
+import "github.com/lunasec-io/grype/grype/vulnerability"
 
 type Cvss struct {
 	Version        string      `json:"version"`

@@ -11,11 +11,11 @@ import (
 	"github.com/spf13/viper"
 	"github.com/wagoodman/go-partybus"
 
-	"github.com/anchore/grype/grype"
-	"github.com/anchore/grype/internal/config"
-	"github.com/anchore/grype/internal/log"
-	"github.com/anchore/grype/internal/logger"
-	"github.com/anchore/grype/internal/version"
+	"github.com/lunasec-io/grype/grype"
+	"github.com/lunasec-io/grype/internal/config"
+	"github.com/lunasec-io/grype/internal/log"
+	"github.com/lunasec-io/grype/internal/logger"
+	"github.com/lunasec-io/grype/internal/version"
 	"github.com/anchore/stereoscope"
 	"github.com/anchore/syft/syft"
 )

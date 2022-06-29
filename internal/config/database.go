@@ -7,8 +7,8 @@ import (
 	"github.com/adrg/xdg"
 	"github.com/spf13/viper"
 
-	"github.com/anchore/grype/grype/db"
-	"github.com/anchore/grype/internal"
+	"github.com/lunasec-io/grype/grype/db"
+	"github.com/lunasec-io/grype/internal"
 )
 
 type database struct {

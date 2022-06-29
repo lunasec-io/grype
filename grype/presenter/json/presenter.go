@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"io"
 
-	"github.com/anchore/grype/grype/match"
-	"github.com/anchore/grype/grype/pkg"
-	"github.com/anchore/grype/grype/presenter/models"
-	"github.com/anchore/grype/grype/vulnerability"
+	"github.com/lunasec-io/grype/grype/match"
+	"github.com/lunasec-io/grype/grype/pkg"
+	"github.com/lunasec-io/grype/grype/presenter/models"
+	"github.com/lunasec-io/grype/grype/vulnerability"
 )
 
 // Presenter is a generic struct for holding fields needed for reporting

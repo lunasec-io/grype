@@ -3,10 +3,10 @@ package search
 import (
 	"fmt"
 
-	"github.com/anchore/grype/grype/match"
-	"github.com/anchore/grype/grype/pkg"
-	"github.com/anchore/grype/grype/version"
-	"github.com/anchore/grype/grype/vulnerability"
+	"github.com/lunasec-io/grype/grype/match"
+	"github.com/lunasec-io/grype/grype/pkg"
+	"github.com/lunasec-io/grype/grype/version"
+	"github.com/lunasec-io/grype/grype/vulnerability"
 )
 
 func ByPackageLanguage(store vulnerability.ProviderByLanguage, p pkg.Package, upstreamMatcher match.MatcherType) ([]match.Match, error) {

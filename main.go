@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/anchore/grype/cmd"
+	"github.com/lunasec-io/grype/cmd"
 )
 
 func main() {

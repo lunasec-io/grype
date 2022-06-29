@@ -3,8 +3,8 @@ package store
 import (
 	"strings"
 
-	v3 "github.com/anchore/grype/grype/db/v3"
-	"github.com/anchore/grype/grype/db/v3/store/model"
+	v3 "github.com/lunasec-io/grype/grype/db/v3"
+	"github.com/lunasec-io/grype/grype/db/v3/store/model"
 )
 
 type storeKey struct {

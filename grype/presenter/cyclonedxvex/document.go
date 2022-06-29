@@ -4,11 +4,11 @@ import (
 	"github.com/CycloneDX/cyclonedx-go"
 	"github.com/google/uuid"
 
-	"github.com/anchore/grype/grype/match"
-	"github.com/anchore/grype/grype/pkg"
-	"github.com/anchore/grype/grype/vulnerability"
-	"github.com/anchore/grype/internal"
-	"github.com/anchore/grype/internal/version"
+	"github.com/lunasec-io/grype/grype/match"
+	"github.com/lunasec-io/grype/grype/pkg"
+	"github.com/lunasec-io/grype/grype/vulnerability"
+	"github.com/lunasec-io/grype/internal"
+	"github.com/lunasec-io/grype/internal/version"
 	"github.com/anchore/packageurl-go"
 	"github.com/anchore/syft/syft/source"
 )

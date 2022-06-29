@@ -6,9 +6,9 @@ import (
 	"github.com/wagoodman/go-partybus"
 	"github.com/wagoodman/go-progress"
 
-	"github.com/anchore/grype/grype/event"
-	"github.com/anchore/grype/grype/matcher"
-	"github.com/anchore/grype/grype/presenter"
+	"github.com/lunasec-io/grype/grype/event"
+	"github.com/lunasec-io/grype/grype/matcher"
+	"github.com/lunasec-io/grype/grype/presenter"
 )
 
 type ErrBadPayload struct {

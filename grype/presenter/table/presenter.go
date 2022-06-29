@@ -8,10 +8,10 @@ import (
 
 	"github.com/olekukonko/tablewriter"
 
-	grypeDb "github.com/anchore/grype/grype/db/v3"
-	"github.com/anchore/grype/grype/match"
-	"github.com/anchore/grype/grype/pkg"
-	"github.com/anchore/grype/grype/vulnerability"
+	grypeDb "github.com/lunasec-io/grype/grype/db/v3"
+	"github.com/lunasec-io/grype/grype/match"
+	"github.com/lunasec-io/grype/grype/pkg"
+	"github.com/lunasec-io/grype/grype/vulnerability"
 )
 
 // Presenter is a generic struct for holding fields needed for reporting

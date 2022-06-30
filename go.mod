@@ -1,4 +1,4 @@
-module github.com/lunasec-io/grype
+module github.com/anchore/grype
 
 go 1.18
 

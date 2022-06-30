@@ -6,11 +6,11 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/wagoodman/go-partybus"
 
-	"github.com/lunasec-io/grype/grype/db"
-	"github.com/lunasec-io/grype/grype/event"
-	"github.com/lunasec-io/grype/internal/bus"
-	"github.com/lunasec-io/grype/internal/log"
-	"github.com/lunasec-io/grype/internal/ui"
+	"github.com/anchore/grype/grype/db"
+	"github.com/anchore/grype/grype/event"
+	"github.com/anchore/grype/internal/bus"
+	"github.com/anchore/grype/internal/log"
+	"github.com/anchore/grype/internal/ui"
 	"github.com/anchore/stereoscope"
 )
 

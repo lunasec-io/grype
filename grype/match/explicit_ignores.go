@@ -1,6 +1,6 @@
 package match
 
-import "github.com/lunasec-io/grype/internal/log"
+import "github.com/anchore/grype/internal/log"
 
 var explicitIgnoreRules []IgnoreRule
 

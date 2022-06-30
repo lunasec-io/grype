@@ -3,7 +3,7 @@ package version
 import (
 	"fmt"
 
-	"github.com/lunasec-io/grype/grype/pkg"
+	"github.com/anchore/grype/grype/pkg"
 	syftPkg "github.com/anchore/syft/syft/pkg"
 )
 

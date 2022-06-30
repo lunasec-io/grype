@@ -7,7 +7,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/lunasec-io/grype/grype/db"
+	"github.com/anchore/grype/grype/db"
 )
 
 var dbListOutputFormat string

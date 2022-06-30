@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/lunasec-io/grype/grype/distro"
-	"github.com/lunasec-io/grype/grype/pkg"
-	"github.com/lunasec-io/grype/internal"
-	"github.com/lunasec-io/grype/internal/log"
+	"github.com/anchore/grype/grype/distro"
+	"github.com/anchore/grype/grype/pkg"
+	"github.com/anchore/grype/internal"
+	"github.com/anchore/grype/internal/log"
 	"github.com/anchore/packageurl-go"
 	syftPkg "github.com/anchore/syft/syft/pkg"
 )

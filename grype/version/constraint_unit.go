@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/lunasec-io/grype/internal"
+	"github.com/anchore/grype/internal"
 )
 
 // operator group only matches on range operators (GT, LT, GTE, LTE, E)

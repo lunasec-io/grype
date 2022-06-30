@@ -6,7 +6,7 @@ import (
 	"os"
 	"text/template"
 
-	presenterTemplate "github.com/lunasec-io/grype/grype/presenter/template"
+	presenterTemplate "github.com/anchore/grype/grype/presenter/template"
 )
 
 // Config is the presenter domain's configuration data structure.

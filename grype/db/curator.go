@@ -17,13 +17,13 @@ import (
 	"github.com/wagoodman/go-partybus"
 	"github.com/wagoodman/go-progress"
 
-	grypeDB "github.com/lunasec-io/grype/grype/db/v3"
-	"github.com/lunasec-io/grype/grype/db/v3/store"
-	"github.com/lunasec-io/grype/grype/event"
-	"github.com/lunasec-io/grype/grype/vulnerability"
-	"github.com/lunasec-io/grype/internal/bus"
-	"github.com/lunasec-io/grype/internal/file"
-	"github.com/lunasec-io/grype/internal/log"
+	grypeDB "github.com/anchore/grype/grype/db/v3"
+	"github.com/anchore/grype/grype/db/v3/store"
+	"github.com/anchore/grype/grype/event"
+	"github.com/anchore/grype/grype/vulnerability"
+	"github.com/anchore/grype/internal/bus"
+	"github.com/anchore/grype/internal/file"
+	"github.com/anchore/grype/internal/log"
 )
 
 const (

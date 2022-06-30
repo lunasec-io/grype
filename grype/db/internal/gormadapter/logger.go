@@ -6,7 +6,7 @@ import (
 
 	"gorm.io/gorm/logger"
 
-	"github.com/lunasec-io/grype/internal/log"
+	"github.com/anchore/grype/internal/log"
 )
 
 type logAdapter struct {

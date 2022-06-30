@@ -9,7 +9,7 @@ import (
 	"github.com/hashicorp/go-getter/helper/url"
 	"github.com/wagoodman/go-progress"
 
-	"github.com/lunasec-io/grype/internal"
+	"github.com/anchore/grype/internal"
 )
 
 var (

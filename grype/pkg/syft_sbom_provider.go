@@ -20,10 +20,10 @@ import (
 	"github.com/sigstore/sigstore/pkg/signature/dsse"
 	"github.com/wagoodman/go-partybus"
 
-	"github.com/lunasec-io/grype/grype/event"
-	"github.com/lunasec-io/grype/internal"
-	"github.com/lunasec-io/grype/internal/bus"
-	"github.com/lunasec-io/grype/internal/log"
+	"github.com/anchore/grype/grype/event"
+	"github.com/anchore/grype/internal"
+	"github.com/anchore/grype/internal/bus"
+	"github.com/anchore/grype/internal/log"
 	"github.com/anchore/syft/syft"
 	"github.com/anchore/syft/syft/sbom"
 )

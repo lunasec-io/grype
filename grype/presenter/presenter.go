@@ -5,15 +5,15 @@ import (
 
 	cdx "github.com/CycloneDX/cyclonedx-go"
 
-	"github.com/lunasec-io/grype/grype/match"
-	"github.com/lunasec-io/grype/grype/pkg"
-	"github.com/lunasec-io/grype/grype/presenter/cyclonedx"
-	"github.com/lunasec-io/grype/grype/presenter/cyclonedxvex"
-	"github.com/lunasec-io/grype/grype/presenter/json"
-	"github.com/lunasec-io/grype/grype/presenter/sarif"
-	"github.com/lunasec-io/grype/grype/presenter/table"
-	"github.com/lunasec-io/grype/grype/presenter/template"
-	"github.com/lunasec-io/grype/grype/vulnerability"
+	"github.com/anchore/grype/grype/match"
+	"github.com/anchore/grype/grype/pkg"
+	"github.com/anchore/grype/grype/presenter/cyclonedx"
+	"github.com/anchore/grype/grype/presenter/cyclonedxvex"
+	"github.com/anchore/grype/grype/presenter/json"
+	"github.com/anchore/grype/grype/presenter/sarif"
+	"github.com/anchore/grype/grype/presenter/table"
+	"github.com/anchore/grype/grype/presenter/template"
+	"github.com/anchore/grype/grype/vulnerability"
 )
 
 // Presenter is the main interface other Presenters need to implement
